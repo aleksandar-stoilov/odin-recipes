@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-image: url(images/main-menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #07130e;
+}
+
+img {
+    border: 2px solid #3C6255;
+    height: auto;
+    width: 350px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 42px;
+    font-weight: 400;
+    color: #3C6255;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #3C6255;
+    text-align: center;
+    margin: 5px;
+}
+
+h3 {
+    text-align: center;
+}
+
+ol {
+    margin-top: 0;
+    margin-bottom: 28.14px;
+}
+
+p {
+    margin: 0 25px 25px;
+    padding: 5px;
+    border-bottom: 2px solid #3C6255;
+    border-top: 2px solid #3C6255;
+    color: #3C6255;
+    list-style: none;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+a {
+    color: #3C6255;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #07130e;
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+.container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    margin: 0;
+    font-size: 52px;
+}
+
+.nav-bar {
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #3C6255;
+    border-top: 2px solid #3C6255;
+}
+
+ /* Recipes pages styles */
+
+.cover {
+    background-color: #EAE7B1;
+    border: 2px solid #3C6255;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 25px 25px;
+}
+
+.directions {
+    background-color: #EAE7B1;
+    border: 2px solid #3C6255;
+    color: #07130e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 25px 25px;
+}
+
+
+
+
+
+
+
+ 
+
+ 
+  
+  
+  
+
+
